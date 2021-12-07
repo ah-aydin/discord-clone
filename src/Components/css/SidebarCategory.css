@@ -1,0 +1,32 @@
+
+
+.sidebar__category {
+    flex: 1;
+    cursor: pointer;
+}
+
+.sidebar__addChannel {
+    cursor: pointer;
+}
+
+.sidebar__addChannel:hover {
+    color: white;
+}
+
+.sidebar__categoryHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #2f3135;
+    color: gray;
+}
+
+.sidebar__categoryHeader:hover {
+    color: rgb(226, 212, 212);
+}
+
+.sidebar__header {
+    display: flex;
+    align-items: center;
+}
