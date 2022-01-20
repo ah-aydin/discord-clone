@@ -18,7 +18,18 @@
 
 .sidebar__categories {
     flex: 1;
+    overflow: scroll;
 }
+
+.sidebar__categories::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar__categories {
+    -ms-overflow-style: none; /* IE and Edge */ 
+    scrollbar-width: none; /* Firefox */
+}
+
 
 .sidebar__addCategoryContainer {
     display: flex;
